@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es2015", 
+      "module": "commonjs",
+      "rootDir": "./",
+      "outDir": "./dist",
+      "lib": ["es2015", "dom"], // Incluye las bibliotecas necesarias para ES2015 y DOM
+    },
+    "include": ["./**/*"],  // Incluir todos los archivos en el directorio actual y subdirectorios
+    "exclude": ["node_modules", "dist"]  // Excluir "node_modules" y "dist"
+  }
+  

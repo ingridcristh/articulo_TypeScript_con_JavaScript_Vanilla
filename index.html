@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Compras con TypeScript</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Lista de Compras con TypeScript</h1>
+        <form id="formularioItem">
+            <div class="form-group">
+                <label for="item">Artículo:</label>
+                <input type="text" class="form-control" id="item" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Agregar</button>
+        </form>
+        <ul id="listaItems" class="list-group mt-3">
+            <!-- Los artículos de la lista serán insertados aquí -->
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
